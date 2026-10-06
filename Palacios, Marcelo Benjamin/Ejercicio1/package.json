@@ -7,10 +7,11 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node --env-file=.env --watch index.js"
   },
   "dependencies": {
     "express": "^5.2.1",
+    "express-validator": "^7.3.2",
     "mysql2": "^3.24.5"
   }
 }
